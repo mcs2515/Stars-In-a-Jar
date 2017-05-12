@@ -1,0 +1,300 @@
+
+body{
+	position:relative;
+	margin: 0 auto;
+	font-family: Arial, san-serif;
+	max-width:1000px;
+	min-width: 989px;
+	background-image: url("../media/stars.png");
+    background-repeat: repeat;	
+}
+
+.lSide{
+	float: left;
+	margin-top: 60px;
+}
+
+#profile{
+	border: 3px solid #7AA1FF;
+	border-radius: 50%;
+}
+
+#links{
+	position: relative;
+	margin: 0 auto;
+	font-size: 110%;
+	background-color: #7AA1FF ;
+	padding: 10px 0px 10px 0px;	
+	margin-top:6%;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #abd0fa;
+	width: 95%;
+}
+
+h5{
+	margin: auto;
+	margin-bottom: 14pt;
+	font-size: 100%;
+}
+
+#linkedList{
+	position:relative;
+	text-align: center;
+}
+
+#current{
+	color: #7AA1FF;
+}
+
+.rSide{
+	float: right;
+	width: 75%;
+}
+
+#box1, #box2{
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px #BED5FF;
+	border: 2px solid #80acff;
+	margin-bottom: 20px;
+	border-style: dashed;
+}
+
+#box2{	
+	padding-bottom: 40px;
+}
+
+h1{
+	text-align: center;
+	font-size: 45px;
+	background-color:#80acff;
+	padding: 10px 0px 10px 0px;
+	border-radius: 70px;	
+	box-shadow: 5px 5px 5px #BED5FF;
+}
+
+p{
+	margin: 20px 30px -15px 30px;
+	font-style: italic;
+	text-indent: 10px;
+}
+.materials{
+		margin-top: 35px;
+}
+
+h2{
+	margin-left: -20px;
+	font-style: italic;
+	margin-bottom: -15px;
+}
+
+
+
+h4:before {
+    content: "★"; 
+    padding-right: 8px;
+    color: #817afe;
+}
+
+h4{
+	margin-bottom: -10px;
+}
+
+
+#materialList, #optionalList{
+	margin-left: 40px;
+}
+
+
+h3{
+	position: relative;
+	margin: 0 auto;
+	background-color:#817afe;
+	padding: 10px 0px 10px 0px;	
+	margin-top:6%;
+	text-align: center;
+	border-radius: 10px;
+	width: 94%;
+}
+
+.steps{
+	width: 100%;
+}
+
+#img1, #img2, #img3, 
+#img4, #img5, #img6,
+#img7, #img8, #img9, 
+#img10, #img11{
+	position: relative;
+	margin: 30px 0px -10px 25px;
+	border: 2px solid #b7b3ff;
+	border-radius: 10px;
+}
+
+#step1
+{
+	position: relative;
+	margin-top: 10%;
+	margin-right: 10%;
+	width: 60%;
+	text-align: center;
+	float: right;
+}
+
+
+#step2, #step3,
+#step4, #step5, #step6,
+#step7, #step8, #step9,
+#step10, #step11{
+	position: relative;
+	margin-top: 12%;
+	margin-right: 10%;
+	width: 60%;
+	text-align: center;
+	float: right;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+a:link {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #65e765;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+footer{
+	position: relative;
+	float: left;
+	margin-left: 30px;
+	margin-top: -20px;
+}
+
+#skip{
+	display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+	body{		
+		max-width:90%;
+		min-width: 400px;
+		font-size: 14px;
+	}
+	
+	.lSide{
+		display: none;
+	}
+	
+	.rSide{
+		width: 100%;
+	}
+	
+	#optionalList{
+		display: none;
+	}
+	#howTo{
+		font-size: 24px;
+	}
+	
+	#box2{
+		padding: 10px 5px 55px 5px;
+	}
+	
+	
+	h4, p{
+		margin-left: -10px;		
+	}
+	
+	h2{
+		margin-top: -20px;
+	}
+		
+	#descript{
+		display: none;
+	}
+	
+	#img1, #img2, #img3, 
+	#img4, #img5, #img6,
+	#img7, #img8, #img9, 
+	#img10, #img11{
+		position: relative;
+		margin-left: 28%;
+		margin-bottom: 15px;
+		width: 40%;
+		height: 40%
+	}
+	
+	#step1
+	{
+		margin-right: -15px;
+		margin-top: -25px;
+		width: 100%;
+	}
+	
+	#step2, #step3,
+	#step4, #step5, #step6,
+	#step7, #step8, #step9,
+	#step10, #step11{
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 5%;
+		width: 100%;
+		text-align: center;
+		float: right;
+}
+	
+	h3{
+	padding: 5px 0px 5px 0px;	
+	margin-top: 30%;
+	}
+	
+	.steps{
+		height: 100%;
+	}
+	#num1{
+		margin-top: 20px;
+	}
+	
+	#num6, #num4, #num9{
+	 margin-top: 55px;
+	}
+	
+	#num2,#num3{
+		margin-top: 35px;
+	}
+	
+	#num7, #num8, #num10,#num5{
+		margin-top: 65px;
+	}
+	
+	 #num11{
+		 margin-top: 80px;
+	 }
+	 
+	 footer{
+		position: relative;
+		float: none;
+		margin-left: 0px;
+		margin-top: 0px;
+		text-align: center;
+	}
+	
+	#skip{
+	display: block;
+}
+
+}
